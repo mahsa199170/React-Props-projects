@@ -1,0 +1,68 @@
+// .profil-card {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   text-align: center; // Center-align text
+
+//   .profile-image {
+//     width: 120px; // Image width
+//     height: 120px; // Image height
+//     border-radius: 50%; // Make the image circular
+//     overflow: hidden; // Ensure the image stays within the circle
+//     margin-bottom: 20px; // Space between image and text
+
+//     img {
+//       width: 100%; // Ensure the image takes the full width
+//       height: 100%; // Ensure the image takes the full height
+//       object-fit: cover; // Make the image cover the entire circle while maintaining its aspect ratio
+//     }
+//   }
+
+//   h2 {
+//     font-size: 24px; // Bigger font size for the name
+//     font-weight: bold;
+//     color: #333; // Dark color for the name
+//     margin-bottom: 10px;
+//   }
+
+//   h3 {
+//     font-size: 18px; // Set font size for other info
+//     color: #666; // Lighter color for the details
+//     margin: 5px 0; // Add space between each piece of info
+//   }
+// }
+
+.profil-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; // Center-align text
+
+  // Profile Image Container
+  .profile-image {
+    width: 120px; // Adjust the width of the circle
+    height: 120px; // Adjust the height of the circle
+    border-radius: 50%; // Make the image circular
+    overflow: hidden; // Ensure the image doesn't overflow outside the circle
+    margin-bottom: 20px; // Space between image and text
+
+    img {
+      width: 100%; // Ensure the image takes up the full width of the container
+      height: 100%; // Ensure the image takes up the full height of the container
+      object-fit: cover; // Cover the area of the circle, maintaining the aspect ratio without distorting the image
+    }
+  }
+
+  h2 {
+    font-size: 24px; // Larger font size for the name
+    font-weight: bold;
+    color: #333; // Dark text color
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 18px; // Set font size for other profile information
+    color: #666; // Lighter color for the details
+    margin: 5px 0; // Add space between each profile field
+  }
+}
